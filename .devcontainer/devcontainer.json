@@ -1,0 +1,14 @@
+{
+  "name": "DVWA Lab Environment",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "dvwa",
+  "workspaceFolder": "/var/www/html",
+  "forwardPorts": [9080],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}
